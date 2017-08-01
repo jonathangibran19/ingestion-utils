@@ -10,13 +10,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
+//comment
 public class Delimitador {
 
+    /*Declaring vars*/
     private File archivoEntrada;
     private File archivoSalida;
     private StringBuilder sbLinea;
     private StringBuilder sbSalida;
-   
 
     private FileInputStream fileInputStream;
     private FileWriter fileWriter;

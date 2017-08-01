@@ -124,12 +124,15 @@ public class Delimitador {
     public File getArchivoEntrada() {
         return archivoEntrada;
     }
+    
     public void setArchivoEntrada(File archivoEntrada) {
         this.archivoEntrada = archivoEntrada;
     }
+
     public File getArchivoSalida() {
         return archivoSalida;
     }
+
     public void setArchivoSalida(File archivoSalida) {
         this.archivoSalida = archivoSalida;
     }

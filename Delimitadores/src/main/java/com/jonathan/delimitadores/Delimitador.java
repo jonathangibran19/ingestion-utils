@@ -10,7 +10,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-//comment
 public class Delimitador {
 
     /* Declaring vars */
@@ -124,7 +123,7 @@ public class Delimitador {
     public File getArchivoEntrada() {
         return archivoEntrada;
     }
-    
+
     public void setArchivoEntrada(File archivoEntrada) {
         this.archivoEntrada = archivoEntrada;
     }

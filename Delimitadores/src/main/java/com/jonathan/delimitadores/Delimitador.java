@@ -13,7 +13,7 @@ import java.util.Scanner;
 //comment
 public class Delimitador {
 
-    /*Declaring vars*/
+    /* Declaring vars */
     private File archivoEntrada;
     private File archivoSalida;
     private StringBuilder sbLinea;

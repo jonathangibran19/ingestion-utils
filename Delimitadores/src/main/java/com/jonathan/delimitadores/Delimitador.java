@@ -104,7 +104,10 @@ public class Delimitador {
         return suma;
     }
     
-    /*obtiene la fecha parseada a un formato en especifico, para agregarla al archivo de salida*/
+    /**
+    * obtiene la fecha parseada a un formato en especifico, para agregarla al archivo de salida.
+    * @return return current date yyy-MM-dd format.
+    */
     public static String getStoreDay() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         String fechaFormat = sdf.format(new Date());

@@ -108,12 +108,11 @@ public class Delimitador {
     * obtiene la fecha parseada a un formato en especifico, para agregarla al archivo de salida.
     * @return return current date yyy-MM-dd format.
     */
-    public static String getStoreDay() {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    public static String getStoreDay() 
+    {SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         String fechaFormat = sdf.format(new Date());
-
-        return fechaFormat;
-    }
+        String newLine = "New Change";
+        return fechaFormat;}
     
     /*hace la cadena al tamaño total de la suma de los intervalos */
     private void completarString(StringBuilder sb, int max) {

@@ -109,8 +109,7 @@ public class Delimitador {
     * @return return current date yyy-MM-dd format.
     */
     public static String getStoreDay() 
-    {SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        String fechaFormat = sdf.format(new Date());
+    {SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");String fechaFormat = sdf.format(new Date());
         String newLine = "New Change";
         return fechaFormat;}
     
